@@ -1,0 +1,461 @@
+@media screen and (min-width:50px) {
+    .productList-body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .productList-container {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgb(180, 177, 177);
+        margin: 10px;
+        width: 290px;
+        height: 525px;
+        align-items: center;
+    }
+    .productList-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        height: 85px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+        text-align: center;
+        font-weight: bold;
+        width: 290px;
+    }
+    .productList-title span {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .productList-image{
+        height: 200px;
+        width: 290px;
+    }
+    .productList-image img{
+        height:100%;
+        width: 100%;
+    } 
+    .productList-desc {
+        display: flex;
+        margin: 10px;
+        height: 150px;
+        width: 270px;
+        overflow-y: auto;
+        background-color: white;
+        font-size: 15px;
+    }
+    .productList-desc p {
+        margin: 10px;
+    }
+    .productList-price {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(103, 134, 245);
+        left: 20px;
+        height: 45px;
+        width: 120px;
+        border-radius: 5px;
+        user-select: none;
+    }
+    .productList-price p {
+        font-size: 15px;
+    }
+    .productList-nonLoad {
+        display: none;
+    }
+    .productList-footer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .productList-edit {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(93, 157, 240);
+        left: 50px;
+        height: 45px;
+        width: 45px;
+        border-radius: 10px;
+        border: black solid 0.8px;
+        cursor: pointer;
+    
+    }
+    .productList-edit .fa-edit {
+        font-size: 25px;
+        color: white;
+    }
+    .productList-edit:hover {
+        background-color: rgb(153, 196, 252);
+    }
+    .productList-delete {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 60px;
+        height: 45px;
+        width: 45px;
+        background-color: red;
+        border-radius: 10px;
+        border: black solid 0.8px;
+        cursor: pointer;
+    }
+    .productList-delete .fa-trash {
+        font-size: 25px;
+        color: white;
+    }
+    .productList-delete:hover {
+        background-color: rgb(248, 98, 98);
+    }
+    .productList-deleteConfirm {
+        background-color: white;
+        left: -190px;
+        border-radius: 5px;
+        width: 250px;
+        height: 140px;
+        margin-top: 192.5px;
+        border: black solid 1px;
+    }
+    
+    .productList-deleteConfirm p {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .productList-deleteYes {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 80px;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+    .productList-deleteNo {
+        padding: 10px;
+        font-size: 15px;
+        color: black;
+        background-color: rgb(192, 187, 187);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 80px;
+        cursor: pointer;
+    }
+    .productList-deleteYes:hover {
+        background-color: rgb(248, 98, 98);
+    }
+    .productList-deleteNo:hover {
+        background-color: rgb(233, 229, 229);
+    }
+    
+    .editProduct-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        border-radius: 15px 15px 15px 15px;
+        width: 290px;
+        height: 525px;
+    }
+    .editProduct-birdName {
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .editProduct-label {
+        margin-left:15px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top:5px;
+    }
+    .editProduct-birdName input {
+        margin-left: 25px;
+        height: 20px;
+        width: 240px;
+        padding: 17px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: transparent;
+        margin-top: 5px;
+    }
+    .editProduct-birdType {
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        justify-content: center;
+    }
+    .editProduct-birdType select {
+        height: 40px;
+        margin-left: 25px;
+        width: 240px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .editProduct-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .editProduct-image .image-input {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .editProduct-preview {
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 5px;
+        height: 160px;
+        width: 250px;
+    }
+    .editProduct-preview img {
+        height:160px;
+        width: 250px;
+    }
+    .editProduct-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .editProduct-desc textarea {
+        height: 70px;
+        width: 260px;
+        margin-top: 5px;
+        margin-left: 15px;
+        padding: 5px;
+        font-size: 12px;
+        resize: none;
+    }
+    .editProduct-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .editProduct-price input {
+        width: 90px;
+        margin-top: 5px;
+        margin-left: 25px;
+        padding: 5px;
+        text-align: right;
+    }
+    .editProduct-save {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 150px;
+        top: -35px;
+        width: 50px;
+        background-color: rgb(8, 179, 8);
+        border-radius: 10px;
+        border: black solid 0.8px;
+        cursor: pointer;
+    }
+    .editProduct-save .fa-save {
+        font-size: 30px;
+        padding: 5px;
+        color: white;
+    }
+    .editProduct-save:hover {
+        background-color: rgb(58, 219, 58);
+    }
+    .editProduct-cancel {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 215px;
+        width: 50px;
+        top: -76.5px;
+        background-color: red;
+        border-radius: 10px;
+        border: black solid 0.8px;
+        cursor: pointer;
+    }
+    .editProduct-cancel .fa-window-close {
+        font-size: 30px;
+        padding: 5px;
+        color: white;
+    }
+    .editProduct-cancel:hover {
+        background-color: rgb(248, 98, 98);
+    }
+}
+@media screen and (min-width: 681px) {
+    .productList-container {
+        width: 400px;
+        height: 630px;
+    }
+    .productList-title {
+        font-size: 30px;
+        height: 85px;
+        width: 400px;
+    }
+    .productList-title span {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .productList-image{
+        height: 280px;
+        width: 400px;
+    }
+    .productList-image img{
+        height:100%;
+        width: 100%;
+    } 
+    .productList-desc {
+        height: 170px;
+        width: 375px;
+        font-size: 19px;
+    }
+    .productList-price {
+        left: 20px;
+        height: 45px;
+        width: 140px;
+    }
+    .productList-price p {
+        font-size: 20px;
+    }
+    .productList-nonLoad {
+        display: none;
+    }
+    .productList-edit {
+        left: 120px;
+        height: 45px;
+        width: 45px;
+    }
+    .productList-edit .fa-edit {
+        font-size: 25px;
+    }
+    .productList-delete {
+        left: 140px;
+        height: 45px;
+        width: 45px;
+    }
+    .productList-delete .fa-trash {
+        font-size: 25px;
+    }
+    .productList-deleteConfirm {
+        left: -190px;
+        width: 320px;
+        height: 170px;
+        margin-top: 220px;
+    }
+    
+    .productList-deleteConfirm p {
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .productList-deleteYes {
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    .productList-deleteNo {
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+    }    
+    .editProduct-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        border-radius: 15px 15px 15px 15px;
+        width: 400px;
+        height: 630px;
+    }
+    .editProduct-birdName {
+        height: 90px;
+        margin-top: 70px;
+    }
+    .editProduct-label {
+        font-size: 22px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .editProduct-birdName input {
+        height: 40px;
+        width: 300px;
+        margin-left: 50px;
+        padding: 17px;
+        font-size: 20px;
+    }
+    .editProduct-birdType {
+        height: 90px;
+    }
+    .editProduct-birdType select {
+        padding: 5px;
+        font-size: 18px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .editProduct-image .image-input {
+        margin-left: 50px;
+    }
+    .editProduct-preview {
+        height: 180px;
+        width: 320px;
+        margin-left: 40px;
+    }
+    .editProduct-preview img {
+        height:180px;
+        width: 320px;
+    }
+    .editProduct-desc {
+        margin-top: 5px;
+    }
+    .editProduct-desc textarea {
+        margin-left: 25px;
+        height: 80px;
+        width: 350px;
+        padding: 5px;
+        font-size: 17px;
+    }
+    .editProduct-price input {
+        width: 90px;
+        padding: 5px;
+        margin-left: 50px;
+    }
+    .editProduct-save {
+        left: 250px;
+        height: 45px;
+        width: 45px;
+        top: -42px;
+    }
+    .editProduct-save .fa-save {
+        font-size: 25px;
+    }
+    .editProduct-cancel {
+        left: 310px;
+        height: 45px;
+        width: 45px;
+        top: -79px;
+    }
+    .editProduct-cancel .fa-window-close {
+        font-size: 25px;
+    }    
+}

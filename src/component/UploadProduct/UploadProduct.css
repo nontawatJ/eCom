@@ -1,0 +1,131 @@
+@media screen and (min-width:50px) {
+    .UploadProduct-container {
+        background-color: rgb(245, 245, 245);
+        height: 800px;
+        width: 290px;
+        margin: 25px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .UploadProduct-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        font-size: 25px;
+        text-align: center;
+        line-height: 65px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+    }
+    .UploadProduct-container form {
+        padding: 5px 25px 5px 25px; 
+    }
+    .UploadProduct-container form .field {
+        margin-top: 10px;
+    }
+    .UploadProduct-container form .field input[type=text] {
+        margin-top: 5px;
+        height: 30px;
+        width: 100%;
+        padding: 17px 20px;
+        font-size: 15px;
+    }
+    .UploadProduct-container form .field input[type=number] {
+        margin-top: 5px;
+        height: 30px;
+        width: 120px;
+        padding: 12px 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .UploadProduct-container form .field textarea {
+       margin-top: 5px;
+       height: 100px;
+       width: 100%;
+       padding: 5px 10px; 
+       resize: none;
+    }
+    .UploadProduct-container form .field select {
+        margin-top: 5px;
+        height: 30px;
+        width: 120px;
+        padding: 5px 10px;  
+     }
+     .UploadProduct-container form .field input[type='file'] {
+         margin-top: 10px;
+     } 
+     .UploadProduct-container form .field input[type='submit'] {
+        color: white;
+        border: 1px solid black;
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        background: rgb(40, 128, 243);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .UploadProduct-container form .field input[type='submit']:hover {
+        background: rgb(105, 163, 238);
+    }
+    .UploadProduct-container form .field .uploadPic {
+        margin-top: 20px;
+        background-color: white;
+        height: 150px;
+        width: 240px;
+    }
+    .UploadProduct-container form .field .uploadPic img {
+        height:100%;
+        width:100%;
+    }
+    .UploadProduct-errorMessage{
+        margin-top: 18px;
+        align-items: center;
+        width: 100%;
+    }
+    .UploadProduct-errorMessage .errorMessage {
+        color: red;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .UploadProduct-errorMessage .fa-exclamation-triangle {
+        margin-right: 5px;
+    }
+    .uploadProduct-note {
+        margin-top: 15px;
+    }
+    .uploadProduct-uploading {
+        position: relative;
+        display: flex;
+        height: 250px;
+        margin-top: 150px;
+        align-items: center;
+    }
+    .uploadProduct-uploading p {
+        font-size: 50px;
+        margin-left: 20px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:641px) {
+    .UploadProduct-container {
+        height: 890px;
+        width: 500px;
+    }
+    .UploadProduct-title {
+        font-size: 30px;
+    }
+    .UploadProduct-container form {
+        padding: 10px 50px 20px 50px; 
+    }
+    .UploadProduct-container form .field .uploadPic {
+        height: 250px;
+        width: 400px;
+    }
+    .UploadProduct-container form .field .uploadPic img {
+        height:100%;
+        width:100%;
+    }
+
+}

@@ -1,0 +1,157 @@
+@media screen and (min-width:50px) {
+    .signUpForm-container {
+        background-color: rgb(245, 245, 245);
+        height: 460px;
+        width: 300px;
+        margin: 25px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .signUp-form-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        font-size: 30px;
+        text-align: center;
+        line-height: 65px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+    }
+    .signUpForm-container form {
+        padding: 10px 25px 20px 25px; 
+    }
+    .signUpForm-container form .field {
+        height: 40px;
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .signUpForm-container form .field input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 15px;
+        padding-left: 20px;
+        border: 2.5px solid lightblue;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    .signUpForm-container form .field label {
+        position: absolute;
+        top: -10%;
+        left: 20px;
+        color: rgb(139, 139, 139);
+        background: white;
+        font-weight: lighter;
+        font-size: 10px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        display:none;
+    }
+    .signUpForm-container form .field input:focus {
+        border-color: blue;
+    }
+    .signUpForm-container form .field input:valid{
+        border-color: green;
+    }
+    .signUpForm-container form .field input:focus ~ label {
+        top: -10%;
+        display: inline;
+        font-size: 10px;
+        color: rgb(139, 139, 139);
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .signUpForm-container form .field input:focus::placeholder {
+        color: transparent;
+    }
+    .signUpForm-container form .field input:not(:placeholder-shown) {
+        border-color: hsl(0, 76%, 50%);;
+    }
+    .signUpForm-container form .field input:valid {
+        border-color: hsl(120, 76%, 50%);
+    }
+    .signUpForm-container form .field input[type='submit'] {
+        color: white;
+        border: 1px solid black;
+        padding-left: 0;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        background: rgb(40, 128, 243);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .signUpForm-container form .field input[type='submit']:hover {
+        background-color: rgb(33, 99, 185);
+    }
+    .signUpForm-container form .signIn-link {
+        margin-top: 30px;
+    }
+    #showPassLogo {
+        position: absolute;
+        top: 10px;
+        left: 210px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .signUp-errorMessage{
+        margin-top: 18px;
+        align-items: center;
+        width: 100%;
+    }
+    .signUp-errorMessage .errorMessage {
+        color: red;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .signUp-errorMessage .fa-exclamation-triangle {
+        margin-right: 5px;
+    }
+  
+}
+@media screen and (min-width:641px) {
+    .signUpForm-container {
+        height: 530px;
+        width: 500px;
+    }
+    .signUpForm-container form {
+        padding: 10px 50px 20px 50px; 
+    }
+    .signUpForm-container form .field {
+        height: 60px;
+    }
+    .signUpForm-container form .field input {
+        font-size: 19px;
+    }
+    .signUpForm-container form .field label {
+        top: -15%;
+        font-size: 16px;
+    }
+    .signUpForm-container form .field input:focus ~ label {
+        top: -10%;
+        font-size: 16px;
+    }
+    .signUpForm-container form .field input[type='submit'] {
+        margin-top: 8px;
+        font-size: 20px;
+    }
+    .signUpForm-container form .signIn-link {
+        margin-top: 35px;
+    }
+    #showPassLogo {
+        top: 18px;
+        left: 350px;
+        font-size: 25px;
+    }
+    .signUp-errorMessage{
+        margin-top: 18px;
+    }
+    .signUp-errorMessage .errorMessage {
+        font-size: 15px;
+    }
+   
+
+}
+

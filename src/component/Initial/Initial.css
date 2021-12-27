@@ -1,0 +1,39 @@
+@media screen and (min-width:50px) {
+    .Initial-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+    }
+    .Initial-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .Initial-btn button {
+        width:180px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 30px;
+        border: 1px solid black;
+        font-size: 40px;
+        cursor: pointer;
+        background-color: rgb(40, 128, 243);
+        color: white;
+        transition: all 0.2s;
+        box-shadow: 2px 5px blue;
+    }
+    .Initial-btn button:hover {
+        background-color: white;
+        color: black;
+    }
+}
+@media screen and (min-width:641px) {
+    .Initial-btn button {
+        width:350px;
+    }
+}

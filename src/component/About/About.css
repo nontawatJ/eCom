@@ -1,0 +1,142 @@
+@media screen and (min-width:50px) {
+    .about-container {
+        background-color: rgb(245, 245, 245);
+        height: 440px;
+        width: 300px;
+        margin: 25px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    } 
+    .about-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        font-size: 30px;
+        text-align: center;
+        line-height: 65px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+    }
+    .about-title p {
+        color: black;
+    }
+    .about-p1 {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .about-p2 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .about-p3 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .about-p4 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .about-note {
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .about-container {
+        height: 400px;
+        width: 550px;
+    } 
+    .about-p1 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .about-p2 {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .about-p3 {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .about-p4 {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media screen and (min-width:800px) {
+    .about-container {
+        height: 420px;
+        width: 720px;
+    } 
+    .about-p1 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .about-p2 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .about-p3 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .about-p4 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .about-container {
+        height: 460px;
+        width: 850px;
+    } 
+    .about-p1 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .about-p2 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .about-p3 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .about-p4 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 20px;
+    }
+
+}

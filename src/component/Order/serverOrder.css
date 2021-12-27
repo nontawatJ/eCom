@@ -1,0 +1,151 @@
+@media screen and (min-width:50px) {
+    .Order-viewOption {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .Order-viewOption button {
+        margin-left: 5px;
+        margin-right: 5px;
+        width:120px;
+        height:50px;
+        border: 1px black solid;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .Order-viewOption button:hover {
+        background-color: rgb(231, 227, 227);
+    }
+    .Order-viewStatus {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .Order-viewStatus h1 {
+        font-size: 30px;
+        color: rgb(104, 104, 177);
+    
+    }
+    .Order-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
+    }
+    .Order-table {
+        border-collapse: collapse;
+    }
+    .Order-table thead tr, .Order-table thead th {
+        padding: 5px;
+        padding-left: 10px;
+        text-align: left;
+        font-size: 10px;
+        background: linear-gradient(-180deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        
+    }
+    .Order-table thead th {
+        color: black;
+    }
+    .Order-table tbody tr:nth-child(even){
+        background-color: rgb(216, 215, 215);
+    }
+    .Order-table tbody tr:nth-child(odd){
+        background-color: rgb(231, 227, 227);
+    }
+    .Order-table tbody tr {
+        text-align: left;
+    }
+    .Order-table tbody td {
+        padding: 5px 5px 5px 15px;
+        font-size: 8px;
+    }
+    .Order-show {
+        display: none;
+    }
+    .fa-clipboard-check {
+        color: green;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .fa-clipboard-check:hover {
+        color: rgb(5, 83, 5);
+    }
+    .fa-trash {
+        color: rgb(226, 11, 11);
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .fa-trash:hover {
+        color: rgb(163, 25, 25);
+
+    }
+}
+@media screen and (min-width: 681px) {
+    .Order-viewOption button {
+        width:170px;
+        height:50px;
+        font-size: 20px;
+    }
+    .Order-viewStatus h1 {
+        font-size: 45px;
+    }
+    .Order-container {
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 25px;
+    }
+    .Order-table thead tr, .Order-table thead th {
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 15px;   
+    }
+    .Order-table tbody td {
+        padding: 5px 5px 5px 30px;
+        font-size: 13px;
+    }
+    .Order-show {
+        display: inline;
+    }
+    .fa-clipboard-check {
+        font-size: 25px;
+    }
+    .fa-trash {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 991px) {
+    .Order-viewStatus h1 {
+        font-size: 50px;
+    }
+    .Order-container {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+    .Order-table thead tr, .Order-table thead th {
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 25px;   
+    }
+    .Order-table tbody td {
+        padding: 8px 5px 5px 30px;
+        font-size: 20px;
+    }
+    .fa-clipboard-check {
+        font-size: 35px;
+    }
+    .fa-trash {
+        font-size: 35px;
+    }
+
+}
+

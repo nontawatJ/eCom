@@ -1,0 +1,157 @@
+@media screen and (min-width:50px) {
+    .BirdProduct-body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .BirdProduct-container {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgb(180, 177, 177);
+        margin: 10px;
+        width: 290px;
+        height: 525px;
+        align-items: center;
+    }
+    .BirdProduct-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        height: 85px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+        text-align: center;
+        font-weight: bold;
+        width: 290px;
+    }
+    .BirdProduct-title span {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .BirdProduct-image{
+        height: 200px;
+        width: 290px;
+    }
+    .BirdProduct-image img{
+        height:100%;
+        width: 100%;
+    } 
+    .BirdProduct-desc {
+        display: flex;
+        margin: 10px;
+        height: 150px;
+        width: 270px;
+        overflow-y: auto;
+        background-color: white;
+        font-size: 15px;
+    }
+    .BirdProduct-desc p {
+        margin: 10px;
+    }
+    .BirdProduct-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .BirdProduct-price {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(103, 134, 245);
+        height: 45px;
+        width: 120px;
+        border-radius: 5px;
+        user-select: none;
+    }
+    .BirdProduct-price p {
+        font-size: 15px;
+    }
+    .BirdProduct-buy {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        height: 45px;
+        width: 120px;
+    }
+    .BirdProduct-buy button {
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+        border: black solid 0.8px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .BirdProduct-buy button:hover {
+        background-color: rgb(156, 40, 40);
+    }
+    .BirdProduct-addToCart {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        height: 45px;
+        width: 120px;
+    }
+    .BirdProduct-addToCart button {
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+        border: black solid 0.8px;
+        background-color: red;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .BirdProduct-addToCart button:hover {
+        background-color: rgb(156, 40, 40);
+    }
+
+}
+@media screen and (min-width: 681px) {
+    .BirdProduct-container {
+        width: 400px;
+        height: 630px;
+    }
+    .BirdProduct-title {
+        font-size: 30px;
+        height: 85px;
+        width: 400px;
+    }
+    .BirdProduct-title span {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .BirdProduct-image{
+        height: 280px;
+        width: 400px;
+    }
+    .BirdProduct-image img{
+        height:100%;
+        width: 100%;
+    } 
+    .BirdProduct-desc {
+        height: 170px;
+        width: 375px;
+        font-size: 19px;
+    }
+    .BirdProduct-price {
+        height: 45px;
+        width: 140px;
+    }
+    .BirdProduct-price p {
+        font-size: 20px;
+    }
+}

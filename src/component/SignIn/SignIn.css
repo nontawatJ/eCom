@@ -1,0 +1,123 @@
+@media screen and (min-width:50px) {
+    .signInForm-container {
+        background-color: rgb(245, 245, 245);
+        height: 400px;
+        width: 300px;
+        margin: 25px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .signIn-form-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        font-size: 30px;
+        text-align: center;
+        line-height: 65px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+    }
+    .signInForm-container form {
+        padding: 10px 25px 20px 25px; 
+    }
+    .signInForm-container form .field {
+        height: 40px;
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .signInForm-container form .field input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 15px;
+        padding-left: 20px;
+        border: 2.5px solid lightblue;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    .signInForm-container form .field label {
+        position: absolute;
+        top: -15%;
+        left: 20px;
+        color: rgb(139, 139, 139);
+        background: white;
+        font-weight: lighter;
+        font-size: 16px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        display:none;
+    }
+    .signInForm-container form .field input:focus {
+        border-color: blue;
+    }
+    .signInForm-container form .field input:focus ~ label {
+        top: -10%;
+        display: inline;
+        font-size: 10px;
+        color: rgb(139, 139, 139);
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .signInForm-container form .field input:focus::placeholder {
+        color: transparent;
+    }
+    .signInForm-container form .field input[type='submit'] {
+        color: white;
+        border: 1px solid black;
+        padding-left: 0;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        background: rgb(40, 128, 243);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .signInForm-container form .field input[type='submit']:hover {
+        background-color: rgb(33, 99, 185);
+    }
+    .signInForm-container form .forgotPass-link{
+        margin-top: 20px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .signInForm-container form .signIn-link {
+        margin-top: 20px; 
+    }
+    .signIn-errorMessage{
+        margin-top: 18px;
+        align-items: center;
+        width: 100%; 
+    }
+    .signIn-errorMessage .errorMessage {
+        color: red;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .signIn-errorMessage .fa-exclamation-triangle {
+        margin-right: 5px;
+    }
+
+}
+@media screen and (min-width:641px) {
+    .signInForm-container {
+        height: 430px;
+        width: 500px;
+    }
+    .signInForm-container form {
+        padding: 10px 50px 20px 50px; 
+    }
+    .signInForm-container form .field {
+        height: 60px;
+    }
+    .signInForm-container form .field input {
+        font-size: 19px;
+    }
+    .signInForm-container form .field input:focus ~ label {
+        font-size: 16px;
+    }
+    .signInForm-container form .field input[type='submit'] {
+        font-size: 20px;
+    }
+
+}

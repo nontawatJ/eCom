@@ -1,0 +1,91 @@
+@media screen and (min-width:50px) {
+    .Cart-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Cart-table {
+        border-collapse: collapse;
+    }
+    .Cart-table thead tr, .Cart-table thead th {
+        padding: 10px;
+        padding-left: 15px;
+        text-align: left;
+        font-size: 13px;
+        background: linear-gradient(-180deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        
+    }
+    .Cart-table thead th {
+        color: black;
+    }
+    .Cart-table tbody tr:nth-child(even){
+        background-color: rgb(216, 215, 215);
+    }
+    .Cart-table tbody tr:nth-child(odd){
+        background-color: rgb(231, 227, 227);
+    }
+    .Cart-table tbody tr {
+        text-align: left;
+    }
+    .Cart-table tbody td {
+        padding: 10px 10px 10px 20px;
+        font-size: 10px;
+    }
+    .Cart-table tfoot tr {
+        background-color: rgb(189, 188, 188);
+    }
+    .Cart-table tfoot tr td{
+        padding: 15px 10px 15px 20px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .Cart-table .fa-window-close {
+        color: red;
+        cursor: pointer;
+    }
+    .Cart-table .fa-window-close:hover{
+        color: rgb(173, 9, 9);
+    }
+    .Cart-submitOrder{
+        background-color: rgb(2, 165, 2);
+        border: none;
+        padding: 5px;
+        border-radius: 20px;
+        font-size: 5px;
+        cursor: pointer;
+        color: white;
+    }
+    .Cart-submitOrder:hover {
+        background-color: green;
+    }
+
+
+}
+@media screen and (min-width:681px) {
+    .Cart-container {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .Cart-table thead tr, .Cart-table thead th {
+        padding: 10px;
+        padding-left: 35px;
+        font-size: 25px;
+    }
+    .Cart-table tbody td {
+        padding: 10px 10px 10px 52px;
+        font-size: 18px;
+    }
+    .Cart-table tfoot tr td{
+        padding: 15px 10px 15px 52px;
+        font-size: 20px;
+    }
+    .Cart-submitOrder{
+        font-size: 14px;
+    }
+    
+}

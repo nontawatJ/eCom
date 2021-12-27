@@ -1,0 +1,165 @@
+@media screen and (min-width:50px) {
+    .forgotPassForm-container {
+        background-color: rgb(245, 245, 245);
+        height: 320px;
+        width: 300px;
+        margin: 25px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .forgotPassForm-title {
+        background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+        font-size: 30px;
+        text-align: center;
+        line-height: 65px;
+        user-select: none;
+        border-radius: 15px 15px 0 0;
+    }
+    .forgotPassForm-container form .field {
+        height: 40px;
+        width: 90%;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .forgotPassForm-container form .field input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 15px;
+        padding-left: 20px;
+        border: 2.5px solid lightblue;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    .forgotPassForm-container form .field label {
+        position: absolute;
+        top: -15%;
+        left: 20px;
+        color: rgb(139, 139, 139);
+        background: white;
+        font-weight: lighter;
+        font-size: 16px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        display:none;
+    }
+    .forgotPassForm-container form .field input:focus {
+        border-color: blue;
+    }
+    .forgotPassForm-container form .field input:focus ~ label {
+        top: -10%;
+        display: inline;
+        font-size: 10px;
+        color: rgb(139, 139, 139);
+        background: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .forgotPassForm-container form .field input:focus::placeholder {
+        color: transparent;
+    }
+    .forgotPassForm-container form .field input:not(:placeholder-shown) {
+        border-color: hsl(0, 76%, 50%);;
+    }
+    .forgotPassForm-container form .field input:valid {
+        border-color: hsl(120, 76%, 50%);
+    }
+    .forgotPassForm-container form .field input[type='submit'] {
+        color: white;
+        border: 1px solid black;
+        padding-left: 0;
+        margin-top: -10px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 100%;
+        background: rgb(40, 128, 243);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .forgotPassForm-container form .field input[type='submit']:hover {
+        background-color: rgb(33, 99, 185);
+    }
+    .forgotPass-errorMessage{
+        margin: 18px 25px 10px 25px;
+        align-items: center;
+        width: 250px; 
+    }
+    .forgotPass-errorMessage .errorMessage {
+        color: red;
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .forgotPass-errorMessage .fa-exclamation-triangle {
+        margin-right: 5px;
+    }
+    .forgotPass-successMessage{
+        margin: 18px 25px 10px 25px;
+        align-items: center;
+        width: 250px; 
+    }
+    .forgotPass-successMessage .successMessage {
+        color: green;
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .forgotPass-successMessage .fa-check {
+        margin-right: 5px;
+    }
+    .forgotPass-signInLink {
+        margin: 10px 25px 10px 25px;
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (min-width:641px) {
+    .forgotPassForm-container {
+        height: 350px;
+        width: 500px;
+    }
+    .forgotPassForm-container form .field {
+        height: 60px;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .forgotPassForm-container form .field input {
+        font-size: 19px;
+    }
+  
+    .forgotPassForm-container form .field input:focus ~ label {
+        font-size: 16px;
+    }
+    .forgotPassForm-container form .field input[type='submit'] {
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    .forgotPass-errorMessage{
+        margin-top: 18px;
+        margin-left: 29px;
+        width: 100%; 
+    }
+    .forgotPass-errorMessage .errorMessage {
+        font-size: 15px;
+    }
+    .forgotPass-successMessage{
+        margin-top: 18px;
+        margin-left: 29px;
+        width: 100%; 
+    }
+    .forgotPass-successMessage .successMessage {
+        font-size: 15px;
+    }
+    .forgotPass-signInLink {
+        margin-top: 15px;
+        margin-left: 35px;
+        font-size: 15px;
+    }
+
+}
+
+
+

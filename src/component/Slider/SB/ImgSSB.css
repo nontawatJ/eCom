@@ -1,0 +1,76 @@
+.smallBird .slider {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.smallBird .slider .slider-pic {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.smallBird .slider .slider-pic .image {
+    margin-left: -30px;
+    flex-wrap: nowrap;
+    width: 270px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+  
+.smallBird .slider .slider-pic .next-btn {
+    position: relative;
+    top: 13px;
+    left: 270px;
+    font-size: 2.5rem;
+    color: blue;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+ }
+.smallBird .slider .slider-pic .next-btn:hover {
+    color: rgb(9, 145, 236);
+}
+  
+.smallBird .slider .slider-pic .prev-btn {
+    position: relative;
+    top: 13px;
+    right: 30px;
+    font-size: 2.5rem;
+    color: blue;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.smallBird .slider .slider-pic .prev-btn:hover {
+    color: rgb(9, 145, 236);
+}
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+.smallBird .slider .desc-box {
+    margin-top: 20px;
+}
+.smallBird .slider .desc-box button {
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background: linear-gradient(-135deg,rgb(40, 128, 243), rgb(128, 180, 248), rgb(40, 128, 243));
+    color: black;
+    cursor: pointer;
+}
+.smallBird .slider .desc-box button:hover {
+    color:white;
+}
